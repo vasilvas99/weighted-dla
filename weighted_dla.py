@@ -102,9 +102,7 @@ def _(EMPTY, SOLID, njit, np):
                     n_solid += 1
 
                 if n_solid > 0:
-                    fluxes[i, j] = n_solid * max(
-                        0.0, 1.0 - p[i, j]
-                    )
+                    fluxes[i, j] = n_solid * max(0.0, 1.0 - p[i, j])
 
         total = np.sum(fluxes)
 
