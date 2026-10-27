@@ -1,5 +1,5 @@
 version = 1
-revision = 3
+revision = 5
 requires-python = ">=3.14"
 
 [[package]]
@@ -81,24 +81,6 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/c7/0e/7fa0ef50764b67090eca4114772a2abf8b6148198475e54c660b97caeee6/click-8.5.0.tar.gz", hash = "sha256:ba0d2089de75ea0310e2dde03160e6ca10009947fb95a182f9b54021bb272e34", size = 382235, upload-time = "2026-08-26T13:33:14.56Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/58/50/6c0d534c5f134586a8e1ba4e330569e32f057e33372ae556463212fb4cd3/click-8.5.0-py3-none-any.whl", hash = "sha256:255bc9599cf7748b4b1a446ccc735421bd08a2ae529a8b88597d3de5664ee360", size = 125251, upload-time = "2026-08-26T13:33:12.928Z" },
-]
-
-[[package]]
-name = "concave-hull"
-version = "0.1.3"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/08/3e/7e10a3c56530e4f3b2473af76ec64aacbb692f7bcbbb1d8c59dc9421431c/concave_hull-0.1.3.tar.gz", hash = "sha256:ed931719f8765cbc8927b4c9dfd1f74ed96e7484f146bc4be6b7a91c5c8fa2d1", size = 8138079, upload-time = "2026-10-03T12:29:29.213Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/01/04/7612b5d78640586e9987181eccda121e7eb128b5823311133e026473bbc1/concave_hull-0.1.3-cp314-cp314-macosx_10_15_universal2.whl", hash = "sha256:0692d8fad6340da30c1ac5a2ad37e834dcc38ba64f84366c5974856d0070fd61", size = 190449, upload-time = "2026-10-03T12:29:06.045Z" },
-    { url = "https://files.pythonhosted.org/packages/99/21/46e065fb6ae6b899b198ebdd0cdb4f173d14ed68d8fe903ca74394cc2558/concave_hull-0.1.3-cp314-cp314-manylinux_2_24_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:a656d029a08ab9f319cdb1e43a168f9f4f8c0386f78459a5e4bf69103632bba3", size = 106349, upload-time = "2026-10-03T12:29:07.361Z" },
-    { url = "https://files.pythonhosted.org/packages/5d/d8/4b0ef3d75d4d822b898ff397e8d62cd84eee2e30e6c60787e1605f3c16dc/concave_hull-0.1.3-cp314-cp314-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:2678e23adb1bf9f49009775aca8681dd75b3944af1bae8740d5154a0f301e3e8", size = 113631, upload-time = "2026-10-03T12:29:08.511Z" },
-    { url = "https://files.pythonhosted.org/packages/d4/20/9e0d3e340a99334cd51a3f18f91258901be1dabb68443ab7ad33751e410d/concave_hull-0.1.3-cp314-cp314-pyemscripten_2026_0_wasm32.whl", hash = "sha256:3ddb79b6c45a7f87410be396f0284eaeb7c115b857aa542c7a1f6c6b9f03589b", size = 57374, upload-time = "2026-10-03T12:29:09.892Z" },
-    { url = "https://files.pythonhosted.org/packages/0c/6e/24c1bd49d20704ac8981dffe57ef99966b8d68c7f8d08f262a23e5218d74/concave_hull-0.1.3-cp314-cp314-win_amd64.whl", hash = "sha256:9f4b64fb1e8b162f9a0dbf2454ac41e46ee32c010b4b54fd70282efd649e9fea", size = 107673, upload-time = "2026-10-03T12:29:11.019Z" },
-    { url = "https://files.pythonhosted.org/packages/f1/e9/ac9d2055bdbd3d234c63581e2a22461d80e036a1d6b73d7c2d7da410d644/concave_hull-0.1.3-cp314-cp314-win_arm64.whl", hash = "sha256:3bec7ec3b0d76936f7327654fc2ff851120f4152b132d9928e5b6cfe5076d655", size = 102873, upload-time = "2026-10-03T12:29:12.212Z" },
-    { url = "https://files.pythonhosted.org/packages/41/ce/d65cb064699adda5f3f4fbf0975042d5446b975ca4feba968d66c6e25900/concave_hull-0.1.3-cp314-cp314t-macosx_10_15_universal2.whl", hash = "sha256:f737655f4845077cad55f869714a2f7c31d536ea00cfeacff5a8d75467a4e2f2", size = 199435, upload-time = "2026-10-03T12:29:13.46Z" },
-    { url = "https://files.pythonhosted.org/packages/9f/8a/6ccb89aa1ad781cc5adc7ca50b82e64191916ed3c39011ccb428d0d668d1/concave_hull-0.1.3-cp314-cp314t-manylinux_2_24_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:03badb53ed6362ab4a727e17c5cb24fdfb4135f9172f7790f186dd3889efb1f8", size = 107802, upload-time = "2026-10-03T12:29:14.773Z" },
-    { url = "https://files.pythonhosted.org/packages/cd/74/afaf6f7aa44c492359bad31a0e63bf9c92a5489ed13bcf9862310d9a5195/concave_hull-0.1.3-cp314-cp314t-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:0feb5b05e04bdf11eb6b5191342f1a989c8ea3b4d9ae823ff8c8d7169905f731", size = 114210, upload-time = "2026-10-03T12:29:16.174Z" },
-    { url = "https://files.pythonhosted.org/packages/42/05/5d0b6a332b7bf64e4e502033ae40c9455422cbe32321b3b7f7413ae8317a/concave_hull-0.1.3-cp315-cp315-pyemscripten_2026_5_wasm32.whl", hash = "sha256:7b1aafe1cca875789c7396c843187168ecdf2f2efc5e15d77b1fa667cdc10ab3", size = 57654, upload-time = "2026-10-03T12:29:17.379Z" },
 ]
 
 [[package]]
@@ -519,55 +501,6 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/bf/21/f64d6b2dbea7bf3f8c38cdc786dcc6ef012ca3d173ad208c782c9a7bedf6/narwhals-2.27.1.tar.gz", hash = "sha256:aed93076a3ea42d9c32c88e4eb5ea422a21937011cbe1f480f9572a523c82094", size = 735013, upload-time = "2026-10-10T06:52:18.113Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/d1/89/5d4c86da1130d9059681e5b6cd7645df5c10279a6a079c5c37dcb2cc6f3f/narwhals-2.27.1-py3-none-any.whl", hash = "sha256:d057df13f5852b8e157596e82eb5e955fad267425df5e420e0ee9863da483b31", size = 483211, upload-time = "2026-10-10T06:52:16.32Z" },
-]
-
-[[package]]
-name = "netgen-mesher"
-version = "6.2.2608"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "netgen-occt" },
-    { name = "numpy" },
-]
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/64/2a/e208bf5cc06723d88d971da2f0b578df73191eea2ba7f966f5eb66fa80d2/netgen_mesher-6.2.2608-cp314-cp314-macosx_10_15_universal2.whl", hash = "sha256:a2ea91edbb375f147e3618e334d0c0bf46765309291a25bb16f07ee84204c27b", size = 10960127, upload-time = "2026-10-01T15:30:24.192Z" },
-    { url = "https://files.pythonhosted.org/packages/fe/ab/af980bd18e83bcb691be98914780ac25f6ff9655a92a3b7400402a34a5d8/netgen_mesher-6.2.2608-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:367fc22eb46847c4d705252ec628d3f7fbdd0f4bd5f214edb138ed4800cc3671", size = 8506742, upload-time = "2026-10-01T13:50:59.41Z" },
-    { url = "https://files.pythonhosted.org/packages/1f/d0/560133cb058356d299e227e5b013402056ffc3cc7822877cc7b08efc25b2/netgen_mesher-6.2.2608-cp314-cp314-win_amd64.whl", hash = "sha256:77c21381e4f1f7050a393e12c317d117e14d11c8ee747c1e381fd41351419428", size = 8314840, upload-time = "2026-10-01T13:54:03.871Z" },
-]
-
-[[package]]
-name = "netgen-occt"
-version = "7.8.1"
-source = { registry = "https://pypi.org/simple" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/14/bf/82b076795dc8d26bcd37a89308cde295a5c3296d948a7cf11a8b483476da/netgen_occt-7.8.1-py3-none-macosx_10_15_x86_64.whl", hash = "sha256:fd2883ae5ce119cb0ff3467f6fc6d2e1540d6622662bdb2327c341ea302ada07", size = 21554286, upload-time = "2024-06-21T13:25:12.364Z" },
-    { url = "https://files.pythonhosted.org/packages/31/14/04f6ccea776378394861c56e7c12da5b1a1df934b1ae14b40654bff63874/netgen_occt-7.8.1-py3-none-macosx_11_0_arm64.whl", hash = "sha256:c93a22f7459866f3eba3e93d24bd184dcc93c4352817dac0520ca30f2edf50a9", size = 19837849, upload-time = "2024-06-21T13:25:15.9Z" },
-    { url = "https://files.pythonhosted.org/packages/2a/9e/dbe6b538248f6e2d7c2972cdf9aa59e2904505c4a345fcd6cfcfe1841f9f/netgen_occt-7.8.1-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:db71d77f56f79c0768489e76dde8febdeb25b95777986587a5d09575fa112f94", size = 25610800, upload-time = "2024-06-21T13:25:19.373Z" },
-    { url = "https://files.pythonhosted.org/packages/00/6f/9e838c4e4445aa0dddff2501e7744787c941635b99589d968db14b1b20a2/netgen_occt-7.8.1-py3-none-win_amd64.whl", hash = "sha256:f701705183832cf2497c6c9339886d95dede7be63187f06be89fa146f6463d09", size = 18924411, upload-time = "2024-06-21T13:25:22.86Z" },
-]
-
-[[package]]
-name = "ngsolve"
-version = "6.2.2608"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "netgen-mesher" },
-    { name = "ngsolve-openblas", marker = "sys_platform != 'darwin'" },
-    { name = "numpy" },
-]
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/41/5a/33e0102b1abfb04a8255479f0696d8955c92d31f6f21cd9f333bbfd9900a/ngsolve-6.2.2608-cp314-cp314-macosx_10_15_universal2.whl", hash = "sha256:06507294d80f123645d002068059c286a0478340b6574f05e537a4f92f9db510", size = 44016679, upload-time = "2026-10-01T17:09:57.382Z" },
-    { url = "https://files.pythonhosted.org/packages/4e/06/5ff977d2b8373e02174bc6c4e86860a332b8c802abfd5b83e700396f8cea/ngsolve-6.2.2608-cp314-cp314-manylinux_2_28_x86_64.whl", hash = "sha256:091990bb448b2b4dc829d75f1f2e23139433d37ed537809d8997ce29ca5a3093", size = 30208490, upload-time = "2026-10-01T16:30:32.267Z" },
-    { url = "https://files.pythonhosted.org/packages/53/93/a239c47402fc6bf406a296d26504689d8026d7e888ade370ef3ba45cb2e7/ngsolve-6.2.2608-cp314-cp314-win_amd64.whl", hash = "sha256:d7c1f62143c02811263be78cec046fb24a14f2fd18b4a38d8aecb59d5e9355f1", size = 15449398, upload-time = "2026-10-01T17:03:42.304Z" },
-]
-
-[[package]]
-name = "ngsolve-openblas"
-version = "0.3.33"
-source = { registry = "https://pypi.org/simple" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/08/45/60d2124e32f2f07b2f3822f6325dd6bb60b42f743d73906ea93aa2db9a48/ngsolve_openblas-0.3.33-py3-none-manylinux_2_17_x86_64.whl", hash = "sha256:8d3266615c7b099e78c5891a41971c6bffe5d6014d13d736cef0cc119d1ca141", size = 15064649, upload-time = "2026-04-29T09:19:30.85Z" },
-    { url = "https://files.pythonhosted.org/packages/0a/5f/2c0fc3c56758f9790fd7bbf576734432c04c6c40a4d336821229b89b1fcc/ngsolve_openblas-0.3.33-py3-none-win_amd64.whl", hash = "sha256:7f117cc2c92cc13dbba0a7d80cc7a5633e4a2bd6d701ea8143cb0dfe7e1b973f", size = 7743781, upload-time = "2026-04-29T09:19:34.884Z" },
 ]
 
 [[package]]
@@ -1101,10 +1034,8 @@ name = "weighted-dla"
 version = "0.1.0"
 source = { editable = "." }
 dependencies = [
-    { name = "concave-hull" },
     { name = "marimo" },
     { name = "matplotlib" },
-    { name = "ngsolve" },
     { name = "numba" },
     { name = "numpy" },
     { name = "ruff" },
@@ -1113,10 +1044,8 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "concave-hull", specifier = ">=0.1.3" },
     { name = "marimo", specifier = ">=0.25.2" },
     { name = "matplotlib", specifier = ">=3.11.2" },
-    { name = "ngsolve", specifier = ">=6.2.2608" },
     { name = "numba", specifier = ">=0.68.0" },
     { name = "numpy", specifier = ">=2.5.4" },
     { name = "ruff", specifier = ">=0.17.2" },
